@@ -6,6 +6,9 @@
 
 ## Important Links
 
+- [Front End](https://github.com/Frankazo/JAT-FrontEnd)
+- [Back end](https://github.com/Frankazo/JAT-BackEnd)
+
 ## Planning Story
 
 ### User Stories
