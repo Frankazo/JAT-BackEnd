@@ -1,5 +1,12 @@
 # Job Apps Tracker:
-
+<div align="left">
+  <a href="https://github.com/react-boilerplate/react-boilerplate-cra-template/actions?query=workflow%3Abuild">
+    <img src="https://github.com/react-boilerplate/react-boilerplate-cra-template/workflows/build/badge.svg" alt="Build Status" />
+  </a>
+  <a href="https://github.com/react-boilerplate/react-boilerplate-cra-template/actions?query=workflow%3Atests">
+    <img src="https://github.com/react-boilerplate/react-boilerplate-cra-template/workflows/test/badge.svg" alt="Tests Status" />
+  </a>
+</div>
   Welcome to JAT (Job Application Tracker). So what is JAT? JAT is an app made for Job seekers to organize their job search. There are many apps or ways to do this on your own, but some are paid or very cumbersome, and at the same time, JAT is free and opensource, which means anyone can duplicate the project and make it their own or contribute to this one, and help build an amazing tool!
 
 ## Available commands
