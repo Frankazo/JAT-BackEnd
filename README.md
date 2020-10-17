@@ -31,13 +31,13 @@
 > User can add contacts to job applications
 > User can add notes to job applications
 
-### Technologies Used
+## Technologies Used
 
 - Node.js
 - Express.js
 - MongoDB / Mongoose
 
-### Catalog of Routes
+## Catalog of Routes
 
 - [User-Route](./User_routes.md)
 
@@ -52,3 +52,7 @@
 ![wireframe](https://i.imgur.com/d1MUull.jpg)
 -
 ![wireframe](https://i.imgur.com/vJ9mISN.jpg)
+
+## License
+
+- [MIT License](./LICENSE)
