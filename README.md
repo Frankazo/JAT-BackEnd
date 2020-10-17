@@ -19,17 +19,17 @@
 
 ## User Stories
 
-> User can to sign up / sign in
-> User can see applications table
-> User can create a job application
-> User can delete a job application
-> User can edit job application
-> User can drag a drop a job application between columns
-> User can edit title to job application
-> User can edit description to job application
-> User can add links to job applications
-> User can add contacts to job applications
-> User can add notes to job applications
+- User can to sign up / sign in
+- User can see applications table
+- User can create a job application
+- User can delete a job application
+- User can edit job application
+- User can drag a drop a job application between columns
+- User can edit title to job application
+- User can edit description to job application
+- User can add links to job applications
+- User can add contacts to job applications
+- User can add notes to job applications
 
 ## Technologies Used
 
@@ -44,14 +44,6 @@
 ## ERD:
 
 ![ERD](https://i.imgur.com/9egaDPT.png)
-
-## Wireframe:
-
-![wireframe](https://i.imgur.com/cPCNGPs.jpg)
--
-![wireframe](https://i.imgur.com/d1MUull.jpg)
--
-![wireframe](https://i.imgur.com/vJ9mISN.jpg)
 
 ## License
 
