@@ -1,4 +1,5 @@
 const mongoose = require("mongoose");
+const column = require("./column");
 
 const tableSchema = new mongoose.Schema(
   {
@@ -7,8 +8,7 @@ const tableSchema = new mongoose.Schema(
       ref: "User",
       required: true,
     },
-    // TODO: Implement Model Column
-    // columns: [ column.schema ],
+    columns: [column.schema],
     title: {
       type: String,
       required: true,
