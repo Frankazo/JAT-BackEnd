@@ -1,14 +1,12 @@
-const mongoose = require("mongoose");
-const column = require("./column");
+const mongoose = require("mongoose")
 
-const tableSchema = new mongoose.Schema(
+const cardSchema = new mongoose.Schema(
   {
     owner: {
       type: mongoose.Schema.Types.ObjectId,
-      ref: "User",
+      ref: "Column",
       required: true,
     },
-    columns: [column.schema],
     title: {
       type: String,
       required: true,
@@ -17,15 +15,18 @@ const tableSchema = new mongoose.Schema(
       type: String,
       required: true,
     },
-    deleted: {
-      type: Boolean,
+    email: {
+      type: String,
       required: true,
+    },
+    color: {
+      type: String,
+      required: false,
     },
   },
   {
-    // Date createdAt
     timestamps: true,
   }
-);
+)
 
-module.exports = mongoose.model("Table", tableSchema);
+module.exports = mongoose.model("Card", cardSchema)
