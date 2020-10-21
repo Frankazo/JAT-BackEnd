@@ -7,8 +7,7 @@ const columnSchema = new mongoose.Schema(
       ref: "Table",
       required: true,
     },
-    //TODO: implement card model
-    // cards: [card.schema],
+    cards: [card.schema],
     title: {
       type: String,
       required: true,
