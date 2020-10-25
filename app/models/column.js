@@ -1,4 +1,5 @@
 const mongoose = require("mongoose")
+const card = require("./card");
 
 const columnSchema = new mongoose.Schema(
   {

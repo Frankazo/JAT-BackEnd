@@ -17,9 +17,9 @@ const tableSchema = new mongoose.Schema(
       type: String,
       required: true,
     },
-    deleted: {
+    isDeleted: {
       type: Boolean,
-      required: true,
+      required: false,
     },
   },
   {
