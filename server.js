@@ -5,6 +5,9 @@ const cors = require('cors')
 
 // require route files
 const userRoutes = require('./app/routes/user_routes')
+const tableRoutes = require('./app/routes/table_routes')
+const columnRoutes = require('./app/routes/column_routes')
+const cardRoutes = require('./app/routes/card_routes')
 
 // require middleware
 const errorHandler = require('./lib/error_handler')
@@ -21,7 +24,7 @@ const auth = require('./lib/auth')
 // define server and client ports
 // used for cors and local port declaration
 const serverDevPort = 4741
-const clientDevPort = 7165
+const clientDevPort = 3000
 
 // establish database connection
 // use new version of URL parser
@@ -61,6 +64,9 @@ app.use(requestLogger)
 
 // register route files
 app.use(userRoutes)
+app.use(tableRoutes)
+app.use(columnRoutes)
+app.use(cardRoutes)
 
 // register error handling middleware
 // note that this comes after the route middlewares, because it needs to be
