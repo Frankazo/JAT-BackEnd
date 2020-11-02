@@ -7,6 +7,7 @@ const cors = require('cors')
 const userRoutes = require('./app/routes/user_routes')
 const tableRoutes = require('./app/routes/table_routes')
 const columnRoutes = require('./app/routes/column_routes')
+const cardRoutes = require('./app/routes/card_routes')
 
 // require middleware
 const errorHandler = require('./lib/error_handler')
@@ -65,6 +66,7 @@ app.use(requestLogger)
 app.use(userRoutes)
 app.use(tableRoutes)
 app.use(columnRoutes)
+app.use(cardRoutes)
 
 // register error handling middleware
 // note that this comes after the route middlewares, because it needs to be
